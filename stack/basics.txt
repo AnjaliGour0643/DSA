@@ -1,0 +1,37 @@
+
+1. What is a Stack?
+
+A stack is a data structure that follows the Last In, First Out (LIFO) principle.
+The last item added to the stack is the first one to be removed.
+----------------------------------
+
+2. Basic Operations of a Stack:
+
+- push(item): Add an item to the top of the stack.
+- pop(): Remove the top item from the stack.
+- peek(): View the top item of the stack without removing it.
+- isEmpty(): Check if the stack is empty.
+- size(): Get the number of items in the stack.
+----------------------------------
+
+3. Applications of Stack:
+
+- Undo/redo functionality in applications.
+- Call stack in recursion.
+- Parenthesis matching in expressions.
+- Backtracking algorithms like depth-first search (DFS).
+- We use stacks to manage function calls, undo functionality, and parse algorithms efficiently in JavaScript applications.
+----------------------------------
+**********************************
+
+-> Stacks can be implemented by using arrays or linked lists.
+
+
+Reasons to implement stacks using arrays:
+------------------------------------------
+
+1. Memory Efficient: Array elements do not hold the next elements address like linked list nodes do.
+2. Easier to implement and understand: Using arrays to implement stacks require less code than using linked lists, and for this reason it is typically easier to understand as well.
+
+A reason for not using arrays to implement stacks:
+Fixed size: An array occupies a fixed part of the memory. This means that it could take up more memory than needed, or if the array fills up, it cannot hold more elements.
